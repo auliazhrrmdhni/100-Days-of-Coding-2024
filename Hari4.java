@@ -1,9 +1,17 @@
 package ISC100Hari;
 
+import java.util.Scanner;
+
 public class Day4 {
     public static void main(String[] args) {
-        //System.out.println digunakan untuk menampilkan output yang akan muncul di baris baru
-        System.out.println("Ibu kota baru Indonesia dipindah ke Kalimantan Timur");
+        
+        Scanner scanner = new Scanner(System.in);
+        
+        /*System.out.print digunakan untuk mencetak teks ataupun nilai 
+         *tanpa penambahan garis baru setelah output
+         */
+        System.out.print("number: ");
+        int angka = scanner.nextInt();
         
         /*System.out.printf digunakan untuk mencetak output dengan format tertentu,
          *sehingga kita dapat mengendalikan outputnya seperti yang diinginkan.
