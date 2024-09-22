@@ -9,6 +9,6 @@ public class Day21 {
         
         price[0]=1500;
         
-        System.out.println(Arrays.toString(price));
+        System.out.println(Arrays.toString(harga));
     }
 }
