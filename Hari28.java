@@ -7,7 +7,7 @@ public class Day28 {
         if(hujan){
             System.out.println("Bawa jas hujan");
         }else{
-            System.out.println("kehujanan");
+            System.out.println("Tidak perlu bawa jas hujan karena tidak terpakai");
         }
     }
 }
