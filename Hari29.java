@@ -1,4 +1,4 @@
-berikan penjelasan tentang kode ini package ISC100Hari;
+package ISC100Hari;
 
 import java.math.BigInteger;
 
