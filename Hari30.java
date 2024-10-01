@@ -1,11 +1,13 @@
 package ISC100Hari;
 
-import java.math.BigInteger;
+import java.math.BigDecimal;
 
-public class Day29 {
+public class Day30 {
     public static void main(String[] args) {
-        BigInteger angka = new BigInteger("012345678987654321");
         
-        System.out.println("Ini adalah contoh Big Integer:"+angka);
+        BigDecimal desimal = new BigDecimal("23.457952468926842");
+        
+        System.out.println("Ini contoh BigDecimal: "+desimal);
     }
+    
 }
