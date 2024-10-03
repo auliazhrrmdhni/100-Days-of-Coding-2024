@@ -6,6 +6,6 @@ public class Day32 {
         int nilai = 423;
         String angka = Integer.toString(nilai);
         
-        System.out.println(nilai);
+        System.out.println(angka);
     }
 }
