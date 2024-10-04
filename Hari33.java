@@ -3,10 +3,10 @@ package ISC100Hari;
 public class Day33 {
     public static void main(String[] args) {
         
-        int nilai = 24;
-        System.out.println("Nilai integer: "+nilai);
+        int angka = 24;
+        System.out.println("Nilai integer: "+angka);
         
-        double desimal = nilai;
+        double desimal = angka;
         System.out.println("Nilai double "+desimal);
       
     }
