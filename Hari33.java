@@ -8,6 +8,6 @@ public class Day33 {
         
         double desimal = angka;
         System.out.println("Nilai double "+desimal);
-      
+    
     }
 }
