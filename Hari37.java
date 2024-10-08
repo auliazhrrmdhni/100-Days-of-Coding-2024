@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Day37 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
+    
         System.out.print("Angka1: ");
         int angka1 = scanner.nextInt();
         System.out.print("Angka2: ");
