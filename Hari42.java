@@ -23,7 +23,7 @@ public class Day42 {
         System.out.println("Penjumlahan: "+penjumlahan);
         System.out.println("Pengurangan: "+pengurangan);
         System.out.println("Perkalian: "+perkalian);
-        System.out.println("Apakah hasil penjumlahan sama dengan hasil pengurangan: "+hasil1);
-        System.out.println("Apakah hasil penjumlahan tidak sama dengan hasil perkalian: "+hasil2);
+        System.out.println("Hasil penjumlahan sama dengan hasil pengurangan: "+hasil1);
+        System.out.println("Hasil penjumlahan tidak sama dengan hasil perkalian: "+hasil2);
     }
 }
