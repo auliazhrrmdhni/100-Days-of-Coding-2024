@@ -1,6 +1,6 @@
 package ISC100Hari;
 
-import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Day88 {
@@ -12,13 +12,12 @@ public class Day88 {
         int jumlah = scanner.nextInt();
         scanner.nextLine();
         
-        ArrayList<String> namaMhs = new ArrayList<String>();
+        String[] namaMhs = new String[jumlah];
         
-        for(int i = 1; i <= jumlah; i++){
+        for(int i = 0; i < jumlah; i++){
             System.out.print("Masukkan nama mahasiswa: ");
-            String nama = scanner.nextLine();
-            namaMhs.add(nama);
+            namaMhs[i] = scanner.nextLine();
         }
-        System.out.println("Daftar nama: "+namaMhs);
+        System.out.println("Daftar nama mahasiswa: "+Arrays.toString(namaMhs));
     }
 }
