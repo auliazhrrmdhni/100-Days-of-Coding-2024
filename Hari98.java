@@ -1,12 +1,8 @@
 package ISC100Hari;
 
-import java.util.Scanner;
-
 public class Day98 {
     public static void main(String[] args) {
-        
-        Scanner scanner = new Scanner(System.in);
-        
+
         int x = 4;
         System.out.print("x: "+x);
         
